@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nab{
+    width: auto;
+    background-color: rgb(59, 59, 77) ;
+    height: 10vh;
+    position: relative;
+
+    
+}
+.logo{
+
+    height: 12vh;
+    width: 100px;
+    margin-left: 70px;
+}
+
+.right-col ul{
+    float: right;
+    background-color: rgb(43, 43, 61) ;
+}
+.right-col ul li{
+    list-style-type:none;
+    display: inline-block;
+    position: relative;
+    background-color: rgb(43, 43, 61) ;
+    padding: 5px;
+    
+}
+.right-col ul li a{
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    padding: 20px 15px;
+    font-weight: bold;
+}
+.right-col ul li a:hover{
+    color: white;
+    background-color: black;
+}
+
+.right-col ul li ul{
+    position: absolute;
+    background-color: rgb(59, 59, 77) ;
+    left: -9999px;
+}
+.right-col ul li:hover ul{
+left: 0px;
+}
+.nab ul li ul li{
+    width: 140px;
+    border-bottom: 1px solid #fff;
+}
+.right-col ul li ul li a:hover{
+    color: white;
+    background: black;
+    width: 110px;
+    
+}
+.right-col ul li ul li a{
+    text-transform: capitalize;
+    width: 120px;
+}
+
+
+.left-col{
+    width: 25%;
+    float: left;
+}
+.right-col{
+    width: 70%;
+    float: right;
+  
+
+}

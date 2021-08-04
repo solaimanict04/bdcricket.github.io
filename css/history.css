@@ -1,0 +1,38 @@
+
+.left-col{
+    max-width: 30%;
+    margin: 0 auto;
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.image{
+ 
+    width: 100%;
+    height: auto;
+}
+.right-col{
+    margin-top: 10px;
+    float: left;
+    max-width: 60%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+    text-shadow: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(220, 237, 252);
+    border-radius: 20px;
+    padding: 10px;
+    color: red;
+    clear: both;
+    margin-top: 10px;
+    letter-spacing: 3px;
+}
+.txt{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+ 
+}

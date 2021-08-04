@@ -1,0 +1,49 @@
+.footer{
+background-color: rgb(223, 219, 219);
+    border-radius: 20px;
+    width: 100%;
+}
+.footer ul{
+    width: 100%;
+    border-radius: 20px;
+
+}
+.footer ul li{
+    list-style-type: none;
+    padding: 7px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: rgb(207, 7, 174);
+    text-transform: capitalize;
+}
+.footer ul li a:hover{
+    color: red;
+}
+.footer p{
+    font-size: 26px;
+    color:Red;
+    padding-left: 70px;
+    font-weight: bold;
+    padding-top: 20px;
+ 
+}
+.footer p1 h3{
+    font-size:20;
+    color: red;
+    float: left;
+    padding-right: 20px;
+    padding-left: 50px;
+
+}
+.footer p1 img{
+    width: 40px;
+    height: 40px;
+    padding: 7px;
+    float: left;
+}
+.footer p1 h4{
+    float: right;
+    padding-right: 100px;
+
+}

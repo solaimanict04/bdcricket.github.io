@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nab{
+    padding: 10px 20px;
+}
+.nab ul{
+    list-style-type: none;
+}
+.nab ul li{
+    border-radius: 10px;
+    background-color: beige;
+    border: 1px solid bisque;
+
+
+}
+
+.nab ul li img{
+    padding: 5px;
+    padding-left: 10px;
+    width: 50px;
+    height: 40px;
+  
+}
+.nab ul li a{
+    float: left;
+    padding-left: 40px;
+    padding-top: 15px;
+    text-decoration: none;
+    color:black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.nab ul li:hover{
+    background-color:cornsilk;
+}
+.nab ul li a:hover{
+    color: red;
+}
+.ab{
+    background-color: rgb(124, 137, 160);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+    font: bold;
+    font-size: 30px;
+    padding-top:20px ;
+    color: green;
+}
+.right-col{
+    width: 70%;
+    float: left;
+}
+.left-col{
+    width: 20%;
+    float: left;
+    border-radius: 20px;
+    border: chartreuse;
+    background-color: whitesmoke;
+    height: 100vh;
+    margin-top: 65px;
+    margin-left: 50px;
+}
+.left-col ul{
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    list-style-type: square;
+    text-decoration: none;
+
+}
+.left-col ul li{
+    padding: 10px;
+}
+.left-col ul li a{
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 25px;
+    padding-left: 5px;
+}
+.left-col ul li a:hover{
+    color:red;
+}
+.left-col ul li:hover{
+    color:red;
+}
